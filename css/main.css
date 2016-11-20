@@ -1,0 +1,33 @@
+html {
+  background-color:  #e2e2e2;
+
+  color: #333;
+  font-family: Menlo, Consolas, monospace;
+}
+
+main {
+  background-color: #fff;
+}
+
+ol {
+  padding-left: 1.75em;
+}
+
+li::before {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+code,
+pre {
+  font-family: Menlo, Consolas, monospace;
+}
+
+pre {
+  margin-left: .5em;
+  background-color: #efefef;
+}
+
+li:last-child pre {
+  margin-bottom: 0;
+}

@@ -1,0 +1,21 @@
+- |
+  #titanic {
+    float: none;
+  }
+- |
+  #big-bang::before {
+    content: "";
+  }
+- |
+  .ninja {
+    visibility: hidden;
+    color: black;
+  }
+- |
+  #lego {
+    display: block;
+  }
+- |
+  #autobots {
+    transform: translate3d();
+  }

@@ -1,0 +1,14 @@
+---
+layout: default
+title: "[css-jokes] ->"
+---
+
+<h1>{{page.title | escape}}</h1>
+
+<ol class="push-0">
+  {% for joke in site.data.jokes %}
+    <li>
+      <pre class="gutter-1-2 pad-t-1-4 pad-b-1-4"><code>{{joke}}</code></pre>
+    </li>
+  {% endfor %}
+</ol>
